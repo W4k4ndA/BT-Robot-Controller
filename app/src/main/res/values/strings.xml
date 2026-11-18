@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">RoverLink</string>
+    <string name="app_subtitle">ESP32-WROOM-32 // BT CLASSIC</string>
+
+    <!-- Navigation -->
+    <string name="nav_cockpit">Cabina</string>
+    <string name="nav_diagnostics">Telemetría</string>
+
+    <!-- Bluetooth Status & Actions -->
+    <string name="bt_connect">Conectar BT</string>
+    <string name="bt_connecting">Conectando…</string>
+    <string name="bt_connected">Enlazado</string>
+    <string name="bt_disconnected">Sin enlace</string>
+    <string name="bt_disconnect">Desconectar</string>
+    <string name="bt_scan_nearby">Escanear dispositivos</string>
+    <string name="bt_scanning">Escaneando…</string>
+    <string name="bt_paired_devices">Dispositivos vinculados</string>
+    <string name="bt_discovered_devices">Dispositivos cercanos</string>
+    <string name="bt_enable_prompt">Activar Bluetooth</string>
+    <string name="bt_grant_permission">Permitir Bluetooth</string>
+    <string name="bt_no_adapter">Adaptador Bluetooth no disponible</string>
+    <string name="bt_empty_devices">No hay dispositivos vinculados. Vincula tu ESP32 en Ajustes o escanea cercanos.</string>
+
+    <!-- Battery Indicators -->
+    <string name="battery_rover_label">BATERÍA ROVER</string>
+    <string name="battery_controller_label">MANDO</string>
+    <string name="battery_awaiting">--%</string>
+
+    <!-- Cockpit / Joystick -->
+    <string name="motor_left_label">MOTOR IZQ (M1)</string>
+    <string name="motor_right_label">MOTOR DER (M2)</string>
+    <string name="tx_stream_label">TRAMA TX</string>
+    <string name="estop_label">E-STOP</string>
+    <string name="protocol_settings">Protocolo</string>
+    <string name="joystick_hint">ARRIBA AVANCE • ABAJO REVERSA • LADOS GIRO</string>
+
+    <!-- Diagnostics & Telemetry -->
+    <string name="diag_signal_title">ENLACE BLUETOOTH CLASSIC (SPP)</string>
+    <string name="diag_motors_title">VELOCIDAD DE MOTORES EN TIEMPO REAL</string>
+    <string name="diag_sensors_title">ESTADO DE SENSORES ESP32</string>
+    <string name="diag_console_title">CONSOLA DE DEPURACIÓN ESP32</string>
+    <string name="diag_send_cmd_hint">Enviar comando manual al ESP32…</string>
+    <string name="diag_clear_logs">Limpiar</string>
+    <string name="diag_awaiting_telemetry">Esperando tramas de telemetría del ESP32…</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_bt_button">Botón de conexión Bluetooth</string>
+    <string name="cd_settings_button">Configuración de protocolo ESP32</string>
+    <string name="cd_rover_illustration">Esquema técnico del rover robótico ESP32</string>
+    <string name="cd_estop_button">Parada de emergencia de motores</string>
+</resources>
